@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zeroloss DeFi 🔶 Corporate</title>
+    <meta name="description" content="zeroloss DeFi v3.0 - Engineering permanent on-chain utility and Proof of Equity.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔶</text></svg>">
+    
+    <style>
+        :root {
+            --primary: #D8B740;
+            --secondary: #4A86DD;
+            --bg: #050505;
+            --card-bg: #0a0a0a;
+            --border: #1a1a1a;
+            --text-main: #FCFCFC;
+            --text-dim: #9CA0AC;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text-main);
+            font-family: 'Inter', -apple-system, system-ui, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+
+        .glow {
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(216, 183, 64, 0.07) 0%, transparent 70%);
+            z-index: -1;
+            top: 10%;
+            filter: blur(60px);
+        }
+
+        .container {
+            max-width: 1100px;
+            width: 90%;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .hero-label {
+            color: var(--primary);
+            text-transform: uppercase;
+            font-size: 11px;
+            letter-spacing: 3px;
+            font-weight: 700;
+            margin-bottom: 25px;
+            border: 1px solid rgba(216, 183, 64, 0.3);
+            padding: 8px 18px;
+            border-radius: 50px;
+            display: inline-block;
+        }
+
+        h1 {
+            font-size: clamp(3rem, 7vw, 5rem);
+            font-weight: 800;
+            line-height: 1;
+            letter-spacing: -3px;
+            margin: 0 0 25px 0;
+            background: linear-gradient(180deg, #fff 0%, #666 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .subtitle {
+            font-size: 1.15rem;
+            color: var(--text-dim);
+            max-width: 650px;
+            margin: 0 auto 60px auto;
+            line-height: 1.6;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1px;
+            background: var(--border);
+            border: 1px solid var(--border);
+            margin-bottom: 60px;
+        }
+
+        .stat-item { background: var(--bg); padding: 35px 20px; }
+        .stat-value { font-size: 26px; font-weight: 700; color: var(--primary); }
+        .stat-label { font-size: 11px; color: var(--text-dim); text-transform: uppercase; margin-top: 8px; letter-spacing: 1px; }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            padding: 40px;
+            text-align: left;
+            transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .card:hover {
+            border-color: var(--primary);
+            box-shadow: 0 0 40px rgba(216, 183, 64, 0.05);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .card h3 { color: var(--primary); font-size: 20px; margin: 0; font-weight: 700; }
+        .card p { color: var(--text-dim); font-size: 15px; line-height: 1.7; margin: 0; }
+
+        .progress-box {
+            margin-top: 80px;
+            border-top: 1px solid var(--border);
+            padding-top: 50px;
+        }
+
+        .bar-container {
+            width: 100%;
+            height: 2px;
+            background: #151515;
+            margin: 25px 0;
+            position: relative;
+        }
+
+        .bar-fill {
+            position: absolute;
+            height: 100%;
+            width: 85%;
+            background: var(--primary);
+            box-shadow: 0 0 15px var(--primary);
+        }
+
+        .footer {
+            margin-top: 100px;
+            padding-bottom: 60px;
+            width: 100%;
+            border-top: 1px solid var(--border);
+            padding-top: 40px;
+        }
+
+        .social-nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            margin-top: 25px;
+        }
+
+        .social-nav a {
+            color: var(--text-dim);
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 600;
+            transition: 0.2s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .social-nav a:hover { color: var(--primary); }
+    </style>
+</head>
+<body>
+    <div class="glow"></div>
+    <div class="container">
+        <div class="hero-label">v3.0 Protocol Upgrade</div>
+        <h1>
+            ZERO<span>LOSS</span>
+            <svg width="48" height="24" viewBox="0 0 439 203" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M101.5 201.5C157.281 201.5 202.5 156.281 202.5 100.5C202.5 44.7191 157.281 -0.5 101.5 -0.5C45.7191 -0.5 0.5 44.7191 0.5 100.5C0.5 156.281 45.7191 201.5 101.5 201.5Z" stroke="#D8B740" stroke-width="12"/>
+                <path d="M337.5 201.5C393.281 201.5 438.5 156.281 438.5 100.5C438.5 44.7191 393.281 -0.5 337.5 -0.5C281.719 -0.5 236.5 44.7191 236.5 100.5C236.5 156.281 281.719 201.5 337.5 201.5Z" stroke="#D8B740" stroke-width="12"/>
+                <path d="M219.5 24V177" stroke="#D8B740" stroke-width="12" stroke-linecap="round"/>
+                <path d="M189 100.5H250" stroke="#D8B740" stroke-width="12" stroke-linecap="round"/>
+            </svg>
+        </h1>
+        <p class="subtitle">Engineering permanent on-chain utility through the Proof of Equity (POE) framework on BNB Chain.</p>
+
+        <div class="stats-grid">
+            <div class="stat-item"><div class="stat-value">533M</div><div class="stat-label">$ZLT Total Supply</div></div>
+            <div class="stat-item"><div class="stat-value">283M</div><div class="stat-label">Locked on Unicrypt</div></div>
+            <div class="stat-item"><div class="stat-value">0%</div><div class="stat-label">Buy/Sell Tax</div></div>
+            <div class="stat-item"><div class="stat-value">BEP-20</div><div class="stat-label">Standard</div></div>
+        </div>
+
+        <div class="card-grid">
+            <div class="card">
+                <div class="card-header">
+                    <svg width="24" height="12" viewBox="0 0 439 203" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M101.5 201.5C157.281 201.5 202.5 156.281 202.5 100.5C202.5 44.7191 157.281 -0.5 101.5 -0.5C45.7191 -0.5 0.5 44.7191 0.5 100.5C0.5 156.281 45.7191 201.5 101.5 201.5Z" stroke="#D8B740" stroke-width="12"/><path d="M337.5 201.5C393.281 201.5 438.5 156.281 438.5 100.5C438.5 44.7191 393.281 -0.5 337.5 -0.5C281.719 -0.5 236.5 44.7191 236.5 100.5C236.5 156.281 281.719 201.5 337.5 201.5Z" stroke="#D8B740" stroke-width="12"/><path d="M219.5 24V177" stroke="#D8B740" stroke-width="12" stroke-linecap="round"/><path d="M189 100.5H250" stroke="#D8B740" stroke-width="12" stroke-linecap="round"/></svg>
+                    <h3>Permanent Utility ⚡</h3>
+                </div>
+                <p>The ZLT-NFT migration is underway. We are establishing a permanent demand loop that converts $ZLT into protocol equity.</p>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <svg width="24" height="12" viewBox="0 0 439 203" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M101.5 201.5C157.281 201.5 202.5 156.281 202.5 100.5C202.5 44.7191 157.281 -0.5 101.5 -0.5C45.7191 -0.5 0.5 44.7191 0.5 100.5C0.5 156.281 45.7191 201.5 101.5 201.5Z" stroke="#D8B740" stroke-width="12"/><path d="M337.5 201.5C393.281 201.5 438.5 156.281 438.5 100.5C438.5 44.7191 393.281 -0.5 337.5 -0.5C281.719 -0.5 236.5 44.7191 236.5 100.5C236.5 156.281 281.719 201.5 337.5 201.5Z" stroke="#D8B740" stroke-width="12"/><path d="M219.5 24V177" stroke="#D8B740" stroke-width="12" stroke-linecap="round"/><path d="M189 100.5H250" stroke="#D8B740" stroke-width="12" stroke-linecap="round"/></svg>
+                    <h3>Equity Governance 🏛️</h3>
+                </div>
+                <p>NFT holders govern the protocol and share in 40% of generated fees via the upcoming ZLT dashboard.</p>
+            </div>
+        </div>
+
+        <div class="progress-box">
+            <div class="stat-label">Deployment Status</div>
+            <div class="bar-container"><div class="bar-fill"></div></div>
+            <p style="font-size: 14px; color: var(--primary); font-weight: 600;">Mainnet Integration: 85% Complete</p>
+        </div>
+
+        <footer class="footer">
+            <nav class="social-nav">
+                <a href="https://x.com/zerolossdefi" target="_blank">Twitter</a>
+                <a href="https://t.me/zerolossgroup" target="_blank">Telegram</a>
+                <a href="https://discord.gg/WVt2WTrxgT" target="_blank">Discord</a>
+                <a href="https://www.linkedin.com/company/zerolossdefi" target="_blank">LinkedIn</a>
+                <a href="https://warpcast.com/zeroloss" target="_blank">Farcaster</a>
+            </nav>
+        </footer>
+    </div>
+</body>
+</html>
