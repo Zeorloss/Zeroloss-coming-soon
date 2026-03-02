@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2022.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    span.s1 {font: 12.0px 'Apple Color Emoji'}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;zeroloss DeFi <span class="s1">🔶</span> Corporate&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="description" content="zeroloss DeFi v3.0 - Engineering permanent on-chain utility and Proof of Equity."&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="icon" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;<span class="s1">🔶</span>&lt;/text&gt;&lt;/svg&gt;"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>:root {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--primary: #D8B740;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--secondary: #4A86DD;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--bg: #050505;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--card-bg: #0a0a0a;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--border: #1a1a1a;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--text-main: #FCFCFC;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--text-dim: #9CA0AC;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--bg);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-main);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Inter', -apple-system, system-ui, sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow-x: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>min-height: 100vh;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.glow {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 400px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 400px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: radial-gradient(circle, rgba(216, 183, 64, 0.07) 0%, transparent 70%);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: -1;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: 10%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>filter: blur(60px);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 1100px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 90%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 80px 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.hero-label {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--primary);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-transform: uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 11px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>letter-spacing: 3px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 700;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 25px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid rgba(216, 183, 64, 0.3);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 8px 18px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 50px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: inline-block;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>h1 {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: clamp(3rem, 7vw, 5rem);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 800;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>letter-spacing: -3px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0 0 25px 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: linear-gradient(180deg, #fff 0%, #666 100%);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>-webkit-background-clip: text;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>-webkit-text-fill-color: transparent;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.subtitle {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 1.15rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-dim);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 650px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0 auto 60px auto;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.6;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.stats-grid {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: grid;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 1px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: var(--border);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid var(--border);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 60px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.stat-item { background: var(--bg); padding: 35px 20px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.stat-value { font-size: 26px; font-weight: 700; color: var(--primary); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.stat-label { font-size: 11px; color: var(--text-dim); text-transform: uppercase; margin-top: 8px; letter-spacing: 1px; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card-grid {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: grid;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: var(--card-bg);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid var(--border);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: left;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-color: var(--primary);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 0 40px rgba(216, 183, 64, 0.05);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card-header {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card h3 { color: var(--primary); font-size: 20px; margin: 0; font-weight: 700; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.card p { color: var(--text-dim); font-size: 15px; line-height: 1.7; margin: 0; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.progress-box {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 80px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-top: 1px solid var(--border);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding-top: 50px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.bar-container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 2px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: #151515;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 25px 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.bar-fill {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 85%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: var(--primary);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 0 15px var(--primary);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.footer {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 100px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding-bottom: 60px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-top: 1px solid var(--border);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding-top: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.social-nav {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-wrap: wrap;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>gap: 25px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 25px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.social-nav a {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--text-dim);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 13px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: 0.2s;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-transform: uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>letter-spacing: 1px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.social-nav a:hover { color: var(--primary); }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="glow"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="hero-label"&gt;v3.0 Protocol Upgrade&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>ZERO&lt;span&gt;LOSS&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;svg width="48" height="24" viewBox="0 0 439 203" fill="none" xmlns="http://www.w3.org/2000/svg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;path d="M101.5 201.5C157.281 201.5 202.5 156.281 202.5 100.5C202.5 44.7191 157.281 -0.5 101.5 -0.5C45.7191 -0.5 0.5 44.7191 0.5 100.5C0.5 156.281 45.7191 201.5 101.5 201.5Z" stroke="#D8B740" stroke-width="12"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;path d="M337.5 201.5C393.281 201.5 438.5 156.281 438.5 100.5C438.5 44.7191 393.281 -0.5 337.5 -0.5C281.719 -0.5 236.5 44.7191 236.5 100.5C236.5 156.281 281.719 201.5 337.5 201.5Z" stroke="#D8B740" stroke-width="12"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;path d="M219.5 24V177" stroke="#D8B740" stroke-width="12" stroke-linecap="round"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;path d="M189 100.5H250" stroke="#D8B740" stroke-width="12" stroke-linecap="round"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="subtitle"&gt;Engineering permanent on-chain utility through the Proof of Equity (POE) framework on BNB Chain.&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="stats-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="stat-item"&gt;&lt;div class="stat-value"&gt;533M&lt;/div&gt;&lt;div class="stat-label"&gt;$ZLT Total Supply&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="stat-item"&gt;&lt;div class="stat-value"&gt;283M&lt;/div&gt;&lt;div class="stat-label"&gt;Locked on Unicrypt&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="stat-item"&gt;&lt;div class="stat-value"&gt;0%&lt;/div&gt;&lt;div class="stat-label"&gt;Buy/Sell Tax&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="stat-item"&gt;&lt;div class="stat-value"&gt;BEP-20&lt;/div&gt;&lt;div class="stat-label"&gt;Standard&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card-grid"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="card-header"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;svg width="24" height="12" viewBox="0 0 439 203" fill="none" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M101.5 201.5C157.281 201.5 202.5 156.281 202.5 100.5C202.5 44.7191 157.281 -0.5 101.5 -0.5C45.7191 -0.5 0.5 44.7191 0.5 100.5C0.5 156.281 45.7191 201.5 101.5 201.5Z" stroke="#D8B740" stroke-width="12"/&gt;&lt;path d="M337.5 201.5C393.281 201.5 438.5 156.281 438.5 100.5C438.5 44.7191 393.281 -0.5 337.5 -0.5C281.719 -0.5 236.5 44.7191 236.5 100.5C236.5 156.281 281.719 201.5 337.5 201.5Z" stroke="#D8B740" stroke-width="12"/&gt;&lt;path d="M219.5 24V177" stroke="#D8B740" stroke-width="12" stroke-linecap="round"/&gt;&lt;path d="M189 100.5H250" stroke="#D8B740" stroke-width="12" stroke-linecap="round"/&gt;&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;Permanent Utility <span class="s1">⚡</span>&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p&gt;The ZLT-NFT migration is underway. We are establishing a permanent demand loop that converts $ZLT into protocol equity.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="card-header"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;svg width="24" height="12" viewBox="0 0 439 203" fill="none" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="M101.5 201.5C157.281 201.5 202.5 156.281 202.5 100.5C202.5 44.7191 157.281 -0.5 101.5 -0.5C45.7191 -0.5 0.5 44.7191 0.5 100.5C0.5 156.281 45.7191 201.5 101.5 201.5Z" stroke="#D8B740" stroke-width="12"/&gt;&lt;path d="M337.5 201.5C393.281 201.5 438.5 156.281 438.5 100.5C438.5 44.7191 393.281 -0.5 337.5 -0.5C281.719 -0.5 236.5 44.7191 236.5 100.5C236.5 156.281 281.719 201.5 337.5 201.5Z" stroke="#D8B740" stroke-width="12"/&gt;&lt;path d="M219.5 24V177" stroke="#D8B740" stroke-width="12" stroke-linecap="round"/&gt;&lt;path d="M189 100.5H250" stroke="#D8B740" stroke-width="12" stroke-linecap="round"/&gt;&lt;/svg&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;Equity Governance <span class="s1">🏛️</span>&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p&gt;NFT holders govern the protocol and share in 40% of generated fees via the upcoming ZLT dashboard.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="progress-box"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="stat-label"&gt;Deployment Status&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="bar-container"&gt;&lt;div class="bar-fill"&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p style="font-size: 14px; color: var(--primary); font-weight: 600;"&gt;Mainnet Integration: 85% Complete&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;footer class="footer"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;nav class="social-nav"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="https://x.com/zerolossdefi" target="_blank"&gt;Twitter&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="https://t.me/zerolossgroup" target="_blank"&gt;Telegram&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="https://discord.gg/WVt2WTrxgT" target="_blank"&gt;Discord&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="https://www.linkedin.com/company/zerolossdefi" target="_blank"&gt;LinkedIn&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="https://warpcast.com/zeroloss" target="_blank"&gt;Farcaster&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/nav&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
